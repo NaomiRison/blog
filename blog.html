@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>blog from scratch</title>
+	<link rel="stylesheet" type="text/css" href="blog.css">
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet"> 
+</head>
+<body>
+<div class="post">
+<div class="date">September 8th, 2016</div>
+	<h1>this is my first article </h1>
+	<p class="quote">another paragraph that looks differeny will add left border for this
+	quote</p>
+	<p>Before we look at the exception classes in Java, let’s understand the two categories of exceptions in Java:Checked exceptions – You must check and handle these in your program. For example, if you are using an API that has a method which declares that it could throw a checked exception, you must catch the exception each time you call that method. If you don’t, the compiler will notice and your program will not compile. The designers of the Java wanted to encourage developers to use checked exceptions in situations from which programs may wish to recover: for example, if the host is down, the program may wish to try another address.
+</p>
+
+</div>
+<!-- hr is a hoirzontal line going across helps seperate text 
+hr tag has no closing tag or inner text
+to style hr tag google to css tricks hr
+then copy  chuck of code of divider you want
+select hr in css file-->
+<hr>
+
+<div class="post">
+<div class="date">September 7th, 2016</div>
+<p class="quote">Unchecked exceptions on the other hand are not required to be handled or caught in the program. For example, if a method could throw unchecked exceptions, the caller of the method is not required to handle or catch the exceptions.</p>
+
+<p>Remember: Checked exceptions are mild and normally programs wish to recover. They must be caught and this rule is enforced by the compiler. The compiler doesn’t care whether you do or do not catch unchecked exceptions.</p>
+	
+</div>
+
+
+
+
+</body>
+</html>

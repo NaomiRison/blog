@@ -1,0 +1,43 @@
+body{
+	
+	border: 20px solid #bdc3c7;
+	
+	max-width:700px;
+	padding: 20px;
+	margin:20px auto;
+	font-family: 'Slabo 27px', serif;
+}
+
+.quote{
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+.date{
+	color: #3498db;
+	text-transform: uppercase;  
+	/*makes date upper case below letter spacing
+	rem
+	*/
+	letter-spacing: 0.2rem;
+}
+h1{
+	font-size: 2.0rem;
+}
+
+/*we need the text to be a certaind dist from border so thats padding
+about 20px on all 4 sides
+
+set margin to get it to center do the short cut 0 auto whic means zero 
+pixels top bottom and left and rght are auto... so this automatically puts
+it in center
+now you notice by having top bottom at zero the grey border is right at the
+top, to have some space between margin of page and grey border change 0 to 
+20px so there is 20px from top to grey border*
+
+width and max-width:
+as we shrink we want it to expand to max of 700 px and take up 80% of page
+
+get the font fron google fonts in lesson blog excerciese solution
+and follow directions
+
+.quote padding adjusted for text and grey left border/
